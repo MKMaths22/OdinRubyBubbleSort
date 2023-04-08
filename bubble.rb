@@ -8,7 +8,6 @@ def swapif(array,index)
     end
     return array;
 end
-#one pass of bubbling occurs, which finds the maximum element and leaves it at the end of the array
 def bubble_sort(array) 
   return array if (array.length <= 1);
   #the base case of the recursion
